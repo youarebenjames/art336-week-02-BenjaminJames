@@ -48,3 +48,31 @@ Globals
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
+@mixin body-font-regular {
+    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;  
+}
+
+@mixin body-font-italic {
+    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;  
+}
+
+@mixin body-font-bold {
+    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;  
+}
+
+@mixin headline-font {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+}
+
+// Site Variables
+$color: #242424;
+$background-color: #e6e6e6;
+
